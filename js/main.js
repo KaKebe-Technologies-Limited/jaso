@@ -211,3 +211,15 @@
 
 })(jQuery);
 
+$('.img-row').slick({
+	infinite: true,
+	slidesToShow: 1,
+	centerMode: false,
+	autoplay: false,
+	arrows: false,
+	fade: false,
+	dots: true,
+	touchMove: true,
+	cssEase: 'linear'
+});
+

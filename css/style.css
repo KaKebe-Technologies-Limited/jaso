@@ -492,7 +492,8 @@ pre {
   position: relative;
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+ }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -5417,7 +5418,8 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important;
+ }
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -9738,3 +9740,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.content {
+  display:flex;
+  flex-direction:row;
+}
